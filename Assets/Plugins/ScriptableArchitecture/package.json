@@ -1,0 +1,21 @@
+{
+    "name": "com.sh.scriptablearchitecture",
+    "version": "1.0.1",
+    "displayName": "Scriptable Architecture",
+    "description": "Game architecture package based on ScriptableObjects.",
+    "unity": "2021.3",
+    "documentationUrl": "https://github.com/SzymonHalucha/ScriptableArchitecture/blob/main/README.md",
+    "changelogUrl": "https://github.com/SzymonHalucha/ScriptableArchitecture/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/SzymonHalucha/ScriptableArchitecture/blob/main/LICENSE.md",
+    "keywords": [
+        "architecture",
+        "ScriptableObjects",
+        "so architecture",
+        "game architecture"
+    ],
+    "author": {
+        "name": "Szymon Hałucha",
+        "email": "szymon.halucha.contact@gmail.com",
+        "url": "https://github.com/SzymonHalucha"
+    }
+}

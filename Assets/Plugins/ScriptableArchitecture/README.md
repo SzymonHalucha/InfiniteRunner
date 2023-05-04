@@ -1,0 +1,1 @@
+Game architecture package based on ScriptableObjects.

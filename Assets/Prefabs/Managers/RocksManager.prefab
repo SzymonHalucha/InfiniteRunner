@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5088244724837919528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5088244724837919531}
+  - component: {fileID: 5088244724837919530}
+  m_Layer: 0
+  m_Name: RocksManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5088244724837919531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088244724837919528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5088244724837919530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088244724837919528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410a160b934d9504296af78f073fa910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isGameOver: {fileID: 11400000, guid: 66334bc4ff3149844b7fe92f9c3679f4, type: 2}
+  _rocksPool: {fileID: 11400000, guid: 78b73a9b588462643bc5c1422f100bda, type: 2}
+  _minMoveSpeed: 1
+  _maxMoveSpeed: 5
+  _rockScaleMin: 0.5
+  _rockScaleMax: 2.5
+  _minRotationSpeed: 10
+  _maxRotationSpeed: 50
+  _rockSpawnRate: 0.75
+  _spawnYOffset: 16
+  _spawnXStart: -12
+  _spawnXEnd: 12
